@@ -1,0 +1,9 @@
+﻿  assign1.cpp
+C:\Users\nichi\OneDrive\Documents\opengl-terrain-viewer\assign1\assign1\assign1.cpp(60,12): warning C4101: 'j': unreferenced local variable
+C:\Users\nichi\OneDrive\Documents\opengl-terrain-viewer\assign1\assign1\assign1.cpp(273,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nichi\OneDrive\Documents\opengl-terrain-viewer\assign1\assign1\assign1.cpp(336,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nichi\OneDrive\Documents\opengl-terrain-viewer\assign1\assign1\assign1.cpp(383,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nichi\OneDrive\Documents\opengl-terrain-viewer\assign1\assign1\assign1.cpp(602,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nichi\OneDrive\Documents\opengl-terrain-viewer\assign1\assign1\assign1.cpp(617,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nichi\OneDrive\Documents\opengl-terrain-viewer\assign1\assign1\assign1.cpp(653,28): warning C4018: '<': signed/unsigned mismatch
+  assign1.vcxproj -> C:\Users\nichi\OneDrive\Documents\opengl-terrain-viewer\assign1\Debug\assign1.exe
