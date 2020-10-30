@@ -25,7 +25,12 @@ Testing diagonal edges (with added hypotenuse weight penalty)
   
 ### Visuals:
 
-~To Do~
+![Image 1](https://raw.githubusercontent.com/nichilstewart/Min-Difference-Path-OpenGL/master/imgs/standard1.png)
+![Image 2](https://raw.githubusercontent.com/nichilstewart/Min-Difference-Path-OpenGL/master/imgs/standard2.png)
+
+![Image 3](https://raw.githubusercontent.com/nichilstewart/Min-Difference-Path-OpenGL/master/imgs/different1.png)
+![Image 4](https://raw.githubusercontent.com/nichilstewart/Min-Difference-Path-OpenGL/master/imgs/different2.png)
+
 
 ### Base Functionality:
 
