@@ -1,9 +1,27 @@
 ## Minimum Height Difference Path Visualizer
 
 Welcome to my minimum height difference path visualizer built in OpenGL! 
-The program uses a modified Dijkstra's algorithm to compute minimum paths
-along a given heigth-field surface. 
 
+The program uses a modified Dijkstra's algorithm to compute paths of minimum 
+change in height along a given 3D heigth-field surface. Each of the paths are 
+then iteratively rendered onto the height-field. The program uses a modifiable
+3D camera with abilities to change the shape, color, and representation of the
+field. 
+
+### Algorithm: 
+
+Uses a modified Dijkstra's algorithm to compute the shortest path from (0,0) 
+to all other pixel positions in (1, 1) to (255,255) range. Each pixel on the
+2D image file is treated as a graph node, where the difference in RGB-greyscale
+value between two nodes is interpreted as the edge weight between the two nodes.
+
+Current algorithm creates edges in 4 directions (Left+Right+Up+Down), and does 
+not add a weight penalty for moving between two arbitrary adjacent edges. 
+
+For v1.1: 
+  -Testing adjacent weight penalty to give preference to paths with fewer steps.
+  -Testing diagonal edges (with added hypotenuse weight penalty)
+  
 ### Visuals:
 
 ~To Do~
@@ -42,7 +60,7 @@ The camera lens is set to a 45 degree angle, and the scene is displaced 3 units
 away from the lens. The matrix mode for the model is set to 'MODELVIEW'. 
 
 
-### Extra Credit:
+### Additional Features:
 
 For extra credit I added colors to the model vertices, changing the heightmap
 colors to display as either red, green, blue, or grayscale. This can be done by
