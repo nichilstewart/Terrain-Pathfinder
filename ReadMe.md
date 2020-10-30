@@ -18,9 +18,9 @@ value between two nodes is interpreted as the edge weight between the two nodes.
 Current algorithm creates edges in 4 directions (Left+Right+Up+Down), and does 
 not add a weight penalty for moving between two arbitrary adjacent edges. 
 
-For v1.1: 
-  -Testing adjacent weight penalty to give preference to paths with fewer steps.
-  -Testing diagonal edges (with added hypotenuse weight penalty)
+##### For v1.1: 
+Testing adjacent weight penalty to give preference to paths with fewer steps.
+Testing diagonal edges (with added hypotenuse weight penalty)
   
 ### Visuals:
 
