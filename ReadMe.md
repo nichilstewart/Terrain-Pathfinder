@@ -25,20 +25,17 @@ Testing diagonal edges (with added hypotenuse weight penalty)
   
 ### Visuals:
 
+Least-incline paths with height-map rendered as triangle strips
 ![Image 1](https://raw.githubusercontent.com/nichilstewart/Min-Difference-Path-OpenGL/master/imgs/standard1.png)
 
-Least-incline paths with height-map rendered as triangle strips
+Least-incline paths with height-map rendered as points
 ![Image 2](https://raw.githubusercontent.com/nichilstewart/Min-Difference-Path-OpenGL/master/imgs/standard2.png)
 
-Least-incline paths with height-map rendered as points
-
+Overlayed paths with height-map rendered as triangle strips
 ![Image 3](https://raw.githubusercontent.com/nichilstewart/Min-Difference-Path-OpenGL/master/imgs/different1.png)
 
-Overlayed paths with height-map rendered as triangle strips
-![Image 4](https://raw.githubusercontent.com/nichilstewart/Min-Difference-Path-OpenGL/master/imgs/different2.png)
-
 Overlayed paths with height-map rendered as points
-
+![Image 4](https://raw.githubusercontent.com/nichilstewart/Min-Difference-Path-OpenGL/master/imgs/different2.png)
 
 ### Base Functionality:
 
