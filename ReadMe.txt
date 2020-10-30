@@ -1,40 +1,66 @@
-========================================================================
-    CONSOLE APPLICATION : assign1 Project Overview
-========================================================================
+## Minimum Height Difference Path Visualizer
 
-AppWizard has created this assign1 application for you.
+Welcome to my minimum height difference path visualizer built in OpenGL! 
+The program uses a modified Dijkstra's algorithm to compute minimum paths
+along a given heigth-field surface. 
 
-This file contains a summary of what you will find in each of the files that
-make up your assign1 application.
+### Visuals:
+
+~To Do~
+
+### Base Functionality:
+
+The program reads in an image using ImageMagick and the CImg library and stores
+the RGB values of each pixel to memory. The program reads the height value at
+each pixel location to create 3D points, which are then used to build a series 
+of "TRIANGLE_STRIP" objects that form a height map of the input image file.
+
+A nested loop structure creates 2 points at locations (x,y) and (x,y+1) and adds
+them to the currrent triangle strip. When a new point is added, it forms a 
+triangular face with the last 2 verticies added to that strip. Each inner loop
+adds all the points from 2 rows of points to create a strip, and each other loop
+adds a new strip to the model.
+
+The program allows users to shift, rotate, and scale the model using the mouse
+and keyboard. Instructions are included below:
+
+To transform the model:
+>Press and drag the mouse button to rotate the object in any direction
+Hold 'CTRL' and drag the mouse to shift the object in any direction
+Hold 'SHIFT' and drag the mouse to scale the object in any direction
+
+The program allows users to change the display mode of the model from points, to
+lines, to surfaces. The view mode can be changed using input from the keyboard.
+Instructions are included below:
+
+To change the polygon display mode:
+>Press '1' to view model as point cloud
+Press '2' to view model as line mesh
+Press '3' to view model as fill blended surface
+
+The camera lens is set to a 45 degree angle, and the scene is displaced 3 units
+away from the lens. The matrix mode for the model is set to 'MODELVIEW'. 
 
 
-assign1.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
+### Extra Credit:
 
-assign1.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
+For extra credit I added colors to the model vertices, changing the heightmap
+colors to display as either red, green, blue, or grayscale. This can be done by
+pressing the number keys on the keyboard. Instructions are included below:
 
-assign1.cpp
-    This is the main application source file.
+To change the color display of the model:
+>Press '4' to set the model color to greyscale
+Press '5' to set the model color to red
+Press '6' to set the model color to green
+Press '7' to set the model color to blue
 
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
 
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named assign1.pch and a precompiled types file named StdAfx.obj.
+### Video Note:
 
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
+I chose to use OBS Studio to record my video instead of using the built-in 
+screenshot capture. I have left the screenshot capture in the same state it
+was in the starter code. The video is included in the same directory as this 
+readme file.
 
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
 
-/////////////////////////////////////////////////////////////////////////////
+Thank you for looking at my program!
