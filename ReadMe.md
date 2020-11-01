@@ -1,4 +1,4 @@
-## Minimum Height Difference Path Visualizer
+## Minimum Slope Terrain Pathfinder
 
 Welcome to my minimum height difference path visualizer built in OpenGL! 
 
